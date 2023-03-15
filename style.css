@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+:root {
+  --story-circle-color: linear-gradient(red, yellow);
+}
+.navigation-left {
+  width: 15rem;
+  height: 100vh;
+  border-right: 1px solid rgb(56, 50, 50);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(0, 0, 0);
+}
+.nav {
+  z-index: -2;
+}
+.logo {
+  padding: 1.5em 1.3rem;
+}
+nav {
+  padding: 1rem 1rem;
+}
+nav img {
+  background-color: white;
+  border-radius: 50%;
+}
+nav img:hover {
+  scale: 110%;
+}
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 1rem;
+}
+.link:hover {
+  background-color: rgb(31, 29, 29);
+  border-radius: 2rem;
+}
+.link :nth-child(2) {
+  padding-left: 1.2rem;
+}
+.link-name {
+  color: white;
+  padding-top: 4px;
+}
+
+.active {
+  font-weight: 600;
+}
+.sign-out {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 1rem 0rem;
+  margin: 3rem 0rem;
+}
+.more img {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  padding: 0rem 2rem;
+  margin: 2rem 0rem;
+}
+.more:hover {
+  background-color: rgb(31, 29, 29);
+  border-radius: 2rem;
+}
+#more {
+  padding: 0 1rem;
+}
+.story-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+.story {
+  width: 4rem;
+  height: 4rem;
+  background-color: rgb(0, 0, 0);
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.main-container {
+  display: flex;
+}
+.story img {
+  border-radius: 50%;
+  border: 2px solid rgb(197, 50, 255);
+}
