@@ -9,13 +9,14 @@ body {
   --story-circle-color: linear-gradient(red, yellow);
 }
 .navigation-left {
-  width: 15rem;
+  width: 17rem;
   height: 100vh;
   border-right: 1px solid rgb(56, 50, 50);
   top: 0;
   z-index: 1;
   background-color: rgb(0, 0, 0);
   position: sticky;
+  margin-right: 8rem;
 }
 .nav {
   z-index: -2;
@@ -136,6 +137,7 @@ nav img:hover {
 }
 .post-info img {
   border-radius: 50%;
+  height: 2.5rem;
   border: 3px solid rgb(9, 255, 0);
 }
 .post-image {
